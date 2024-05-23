@@ -101,6 +101,7 @@
 }
 .budgets {
    background: url("../assets/backgrounds/city.png") no-repeat;
+   background-size:cover;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -109,7 +110,9 @@
 }
 .budget {
    display: flex;
+   flex-direction: row;
    gap: 50px;
+
 }
 .budgets h1 {
    text-align: center;
@@ -154,4 +157,22 @@
    width: 30px;
    padding-right: 10px;
    padding: 5px 0;
+}
+@media screen and (max-width: 900px) {
+   .best-Services {
+      padding: 0;
+   }
+}
+@media screen and (max-width: 550px) {
+   .best-Services {
+      grid-template-columns: auto;
+   }
+}
+@media screen and (max-width: 1250px) {
+   .services {
+      flex-direction: column;
+   }
+   .budget{
+      flex-direction: column;
+   }
 }

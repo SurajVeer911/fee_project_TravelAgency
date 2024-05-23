@@ -70,6 +70,25 @@ a,
    list-style: none;
    text-decoration: none;
 }
+.login button{
+   background-color: transparent;
+   color: #fff;
+}
+.login button:hover{
+   background-color: transparent;
+   color:#ffdd00;
+   cursor: pointer;
+}
+.signup button{
+   background-color: transparent;
+   color: #fff;
+}
+.signup button:hover{
+   background-color: transparent;
+   color:#ffdd00;
+   cursor: pointer;
+
+}
 
 hr {
    /* width: 80%; */
@@ -115,5 +134,28 @@ hr {
    text-underline-offset: 4.25vh;
    text-decoration-thickness: 5px;
 }
+.links .active {
+   color: #ffdd00;
 
+}
+.activea:hover{
+   color: #ffdd00;
+}
+@media screen and (max-width: 768px) {
+   header {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
 
+   .phone,
+   .mail,
+   .links {
+      display: none;
+   }
+}
+@media screen and (max-width: 375px) {
+   .accounts h2 {
+      font-size: 8px;
+   }
+}

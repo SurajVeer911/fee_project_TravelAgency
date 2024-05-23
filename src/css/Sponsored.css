@@ -72,5 +72,36 @@
    border: none;
    padding: 10px 20px;
    border-radius: 5px;
-   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+   /* background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%); */
+   background-color: #ead137;
+}
+.priceandbutton button:hover {
+   color: #ead137;
+   background-color: #000000;
+   cursor: pointer;
+}
+@media screen and (max-width: 1250px) {
+   .sponsorContent {
+      translate: -100%;
+   }
+}
+@media screen and (max-width: 1024px) {
+   .sponsor {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      padding: 50px 0;
+   }
+   .sponsorContent {
+      translate: 0;
+      width: 75%;
+   }
+   .sponsor img {
+      width: 100%;
+   }
+}
+@media screen and (max-width: 375px) {
+   .sponsorContent {
+      scale: 0.8;
+   }
 }

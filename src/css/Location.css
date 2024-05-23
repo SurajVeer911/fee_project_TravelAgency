@@ -111,7 +111,14 @@
    font-weight: bold;
    /* height: 41px; */
    border-radius: 4px;
-   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+   background-color: #ead137;
+   /* background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%); */
+}
+.ThreeLocations button:hover {
+   color: #ead137;
+   background-color: #000000;
+   cursor: pointer;
+
 }
 .areaLooks {
    background: url("../assets/backgrounds/areabg.png");
@@ -141,7 +148,13 @@
    padding: 15px 30px;
    border: none;
    border-radius: 5px;
-   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+   background-color: #ead137;
+   /* background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%); */
+}
+.blog button:hover {
+   color: #ead137;
+   background-color: #000000;
+   cursor: pointer;
 }
 .blog h1 {
    font-size: 25px;
@@ -178,4 +191,39 @@
    font-weight: 400;
    font-family: "Montserrat";
    text-align: center;
+}
+@media screen and (max-width: 1400px) {
+   .looksdiv {
+      width: 1000px;
+   }
+   .looksdiv img {
+      width: 300px;
+   }
+}
+@media screen and (max-width: 1000px) {
+   .looksdiv {
+      display: flex;
+      flex-direction: column;
+      width: min-content;
+   }
+   .looksdiv p {
+      font-size: 10px;
+   }
+}
+@media screen and (max-width: 1200px) {
+   .locationdiv {
+      width: 80%;
+   }
+}
+@media screen and (max-width: 768px) {
+   .locationdiv {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+   }
+}
+@media screen and (max-width: 425px) {
+   .ThreeLocations {
+      scale: 0.75;
+   }
 }

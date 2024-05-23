@@ -89,3 +89,14 @@
    font-family: "Lato";
    text-align: center;
 }
+@media screen and (max-width: 675px) {
+   .logo {
+      background-size: cover;
+   }
+   .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+   }
+}

@@ -27,7 +27,7 @@ export default function FindHotels() {
                   <input type="text" placeholder="00" />
                </div>
                <div className="hotelButton">
-                  <button>Click Here</button>
+                  <button class="click">Click Here</button>
                </div>
             </div>
          </div>

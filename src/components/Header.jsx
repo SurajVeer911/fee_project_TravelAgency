@@ -27,22 +27,22 @@ function Header() {
                <div className="icons">
                   <ul>
                      <li>
-                        <a href="">
+                        <a href="https://www.facebook.com/">
                            <img src={facebook} alt="" width={20} />
                         </a>
                      </li>
                      <li>
-                        <a href="">
+                        <a href="https://www.google.com/">
                            <img src={google} alt="" width={30} />
                         </a>
                      </li>
                      <li>
-                        <a href="">
+                        <a href="https://vk.com/">
                            <img src={vk} alt="" width={30} />
                         </a>
                      </li>
                      <li>
-                        <a href="">
+                        <a href="https://www.youtube.com/">
                            <img src={youtube} alt="" width={20} />
                         </a>
                      </li>
@@ -51,11 +51,11 @@ function Header() {
                <div className="accounts">
                   <div className="login">
                      <img src={user} width={20} alt="" />
-                     <h2>Login</h2>
+                     <h2><button>Login</button></h2>
                   </div>
                   <div className="signup">
                      <img src={key} width={20} alt="" />
-                     <h2>Sign Up</h2>
+                     <h2><button>Sign Up</button></h2>
                   </div>
                </div>
             </div>
@@ -64,7 +64,6 @@ function Header() {
          <div className="headerBottom">
             <div className="headline">
                <h1>Explore</h1>
-               <h2>CREATIVE TAGLINE HERE</h2>
             </div>
             <div className="links">
                <ul>
@@ -74,19 +73,19 @@ function Header() {
                      </a>
                   </li>
                   <li>
-                     <a href="">DESTINATION</a>
+                     <a href="" className="activea" >DESTINATION</a>
                   </li>
                   <li>
-                     <a href="">DISCOUNT</a>
+                     <a href="" className="activea">DISCOUNT</a>
                   </li>
                   <li>
-                     <a href="">ABOUT</a>
+                     <a href="" className="activea">ABOUT</a>
                   </li>
                   <li>
-                     <a href="">BLOG</a>
+                     <a href="" className="activea">BLOG</a>
                   </li>
                   <li>
-                     <a href="">CONTACT</a>
+                     <a href="" className="activea">CONTACT</a>
                   </li>
                </ul>
             </div>

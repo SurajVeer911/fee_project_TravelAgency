@@ -52,8 +52,28 @@
    font-weight: 500;
    font-family: "Montserrat";
    text-align: center;
-   background-image: linear-gradient(180deg, #4d4d4d 0%, #494949 100%);
+   /* background-image: linear-gradient(180deg, #4d4d4d 0%, #494949 100%); */
    border: none;
    padding: 7px 30px;
    border-radius: 5px;
+}
+.click{
+   background-color: black;
+}
+.click:hover{
+   cursor: pointer;
+   color: #c9c971;
+}
+@media screen and (max-width: 900px) {
+   .form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+}
+@media screen and (max-width: 425px) {
+   .form {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+   }
 }

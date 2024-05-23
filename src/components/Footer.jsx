@@ -51,13 +51,13 @@ function Index() {
                </div>
             </div>
             <div className="social-media-icons">
-               <img src={facebookBlack} alt="" />
-               <img src={googleBlack} alt="" />
-               <img src={vkBlack} alt="" />
-               <img src={youtubeBlack} alt="" />
-               <img src={linkedinBlack} alt="" />
-               <img src={diggBlack} alt="" />
-               <img src={xblack} alt="" />
+               <a href="https://www.facebook.com/"><img src={facebookBlack} alt="" /></a>
+               <a href="https://www.google.com/"><img src={googleBlack} alt="" /></a>
+               <a href="https://vk.com/"><img src={vkBlack} alt="" /></a>
+               <a href="https://www.youtube.com/"><img src={youtubeBlack} alt="" /></a>
+               <a href="https://www.linkedin.com/"><img src={linkedinBlack} alt="" /></a>
+               <a href="https://digg.com/"><img src={diggBlack} alt="" /></a>
+               <a href="https://x.com/"><img src={xblack} alt="" /></a>
             </div>
             <div className="designedby">
                <h1>Designed by PSDFreebies.com</h1>
